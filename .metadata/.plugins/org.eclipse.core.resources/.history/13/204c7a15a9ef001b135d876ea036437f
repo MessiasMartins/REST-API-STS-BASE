@@ -1,0 +1,27 @@
+package br.com.auderemg.api.controller;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+
+
+import br.com.auderemg.api.model.Cliente;
+import br.com.auderemg.api.repository.ClienteRepository;
+
+
+@RestController
+@RequestMapping("/clientes")
+public class ClienteController {
+	
+	@Autowired
+	private ClienteRepository clienteRepository;
+	
+	@GetMapping
+	public List<Cliente> listar() {
+		return clienteRepository.findAll();
+	}
+
+}

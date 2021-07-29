@@ -1,0 +1,10 @@
+package br.com.auderemg.api.model;
+
+public class Cliente {
+	
+	private Long id;
+	private String nome;
+	private String gerero;
+	private Integer idade;
+
+}

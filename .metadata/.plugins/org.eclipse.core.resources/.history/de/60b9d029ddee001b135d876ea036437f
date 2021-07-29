@@ -1,0 +1,5 @@
+package br.com.auderemg.api.repository;
+
+public interface ClienteRepository {
+
+}

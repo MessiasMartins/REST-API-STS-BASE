@@ -1,0 +1,9 @@
+package br.com.auderemg.api.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import br.com.auderemg.api.model.Cliente;
+
+public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+
+}
