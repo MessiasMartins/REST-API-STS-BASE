@@ -1,5 +1,5 @@
 <h1 align="center">
-    ♻️ <a href="#" alt=""> API REST - SpringBoot Base </a>
+    <a href="#" alt=""> API REST - SpringBoot Base </a>
 </h1>
 
 <h3 align="center">
@@ -75,19 +75,19 @@ As seguintes ferramentas foram usadas na construção da API:
 
 -   **[Java 8]()**
 -   **[SpringBoot]()**
--   **[DevTools]()**
--   **[JPA]()**
--   **[H2]()**
+-   **[DevTools](Plugin utilizado no projeto para automatizar o reinício do server nas alterações)**
+-   **[JPA](Java Persistence API Framework / Hibernate)**
+-   **[H2](Banco de dados executado na memória)**
 
 > Veja o arquivo  [pom.xml]()
 
 ---
 
-## 👨‍💻 Contribuidores
+## Contribuidores
 
 <table>
  <tr>
-    <td align="center"><a href=""><img style="" src="" width="100px;" alt=""/><br /><sub><b>Messias Martins</b></sub></a><br /><a title=""></a></td>
+    <td align="center"><a href=""><img style="" src="" width="" alt=""/><br /><sub><b>Messias Martins</b></sub></a><br /><a title=""></a></td>
    
  </tr>
 </table>
@@ -104,7 +104,6 @@ As seguintes ferramentas foram usadas na construção da API:
 
 ## Autor
 
-<br />
 <sub><b>Messias Martins 🇧🇷</b></sub></a>
 <br />
 
